@@ -39,6 +39,7 @@ if option3 == "Yes" or "yes":
     option5 = input("Did you think that was a cool fun fact?")
     if option5.lower() == "cool":
         print("( ͡° ͜ʖ ͡°)")
+        points += 2
         print("You just earned 2 points! Your total number of points is" , points, "!")
 elif option3 == "No" or option3 == "no":
     print ("That's fine my dude, there's always next time", name, "?", "Please direct yourself to the nearest exit." )
